@@ -1,0 +1,1 @@
+"""Synthetic marketplace mechanics project."""
