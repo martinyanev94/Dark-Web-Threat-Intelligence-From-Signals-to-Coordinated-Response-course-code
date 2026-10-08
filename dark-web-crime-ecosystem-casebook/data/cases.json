@@ -1,0 +1,34 @@
+[
+  {
+    "case_id": "drug-001",
+    "ecosystem": "drug markets",
+    "participants": ["vendors", "buyers", "market moderators"],
+    "harms": ["health risk", "financial harm"],
+    "enabling_conditions": ["pseudonymous payments", "cross-border logistics"],
+    "response_priorities": ["preserve evidence", "support harm reduction"]
+  },
+  {
+    "case_id": "cse-001",
+    "ecosystem": "child sexual exploitation",
+    "participants": ["offenders", "victim-support services", "investigators"],
+    "harms": ["child safety harm", "ongoing victimization"],
+    "enabling_conditions": ["anonymity", "rapid content redistribution"],
+    "response_priorities": ["protect children", "preserve evidence", "coordinate specialist services"]
+  },
+  {
+    "case_id": "trafficking-001",
+    "ecosystem": "human trafficking",
+    "participants": ["traffickers", "exploited people", "service providers"],
+    "harms": ["coercion", "physical and economic harm"],
+    "enabling_conditions": ["cross-jurisdiction activity", "fragmented reporting"],
+    "response_priorities": ["identify safeguarding needs", "coordinate referrals"]
+  },
+  {
+    "case_id": "terrorism-001",
+    "ecosystem": "cyberterrorism",
+    "participants": ["ideological networks", "public authorities", "affected communities"],
+    "harms": ["public-service disruption", "government harm"],
+    "enabling_conditions": ["global reach", "information gaps"],
+    "response_priorities": ["protect critical services", "share intelligence lawfully"]
+  }
+]
