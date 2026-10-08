@@ -1,0 +1,50 @@
+[
+  {
+    "name": "TOR",
+    "architecture": "multi-hop relay routing with layered encryption",
+    "privacy_properties": [
+      "traffic passes through multiple intermediary relays",
+      "service observations may not expose the originating network path"
+    ],
+    "investigation_constraints": [
+      "a service-level address is not automatically the user's address",
+      "origin attribution requires corroboration beyond the observed relay endpoint"
+    ],
+    "legitimate_uses": [
+      "privacy protection for journalists, activists, and other lawful users"
+    ],
+    "scope_boundary": "TOR context does not establish criminal intent or identify a user"
+  },
+  {
+    "name": "I2P",
+    "architecture": "decentralized anonymous network using garlic routing",
+    "privacy_properties": [
+      "multiple messages may be combined in layered encryption",
+      "the design does not rely on a centralized database of server nodes"
+    ],
+    "investigation_constraints": [
+      "a single central node view should not be treated as the complete communication path",
+      "interpretation depends on the activity type and the network context"
+    ],
+    "legitimate_uses": [
+      "private communication and access to online material"
+    ],
+    "scope_boundary": "I2P context does not establish criminal intent or guarantee complete anonymity"
+  },
+  {
+    "name": "Freenet",
+    "architecture": "decentralized peer-to-peer content distribution through intermediary nodes",
+    "privacy_properties": [
+      "encrypted content chunks may be distributed across users' computers",
+      "users may not know which files their nodes store or which node supplied a file"
+    ],
+    "investigation_constraints": [
+      "storage or forwarding does not establish authorship or intent",
+      "a requested content identifier does not by itself identify the requester or publisher"
+    ],
+    "legitimate_uses": [
+      "content distribution, publishing, communication, and access to information"
+    ],
+    "scope_boundary": "Freenet participation does not establish possession, authorship, or criminal intent"
+  }
+]
