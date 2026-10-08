@@ -1,0 +1,23 @@
+[
+  {
+    "technology": "TOR",
+    "property": "multi-hop relay routing",
+    "wording": "TOR provides perfect anonymity.",
+    "evidence": ["traffic is routed through intermediate nodes"],
+    "constraint": "Attribution requires corroborating evidence."
+  },
+  {
+    "technology": "I2P",
+    "property": "anonymizing network pattern",
+    "wording": "An I2P relay endpoint proves the originating user.",
+    "evidence": ["the technology uses intermediary network routing"],
+    "constraint": "A relay endpoint does not by itself identify an origin."
+  },
+  {
+    "technology": "Freenet",
+    "property": "distributed content storage",
+    "wording": "Stored Freenet content proves authorship and intent.",
+    "evidence": ["content can be distributed across participating storage"],
+    "constraint": "Stored content requires independent corroboration for authorship or intent."
+  }
+]
