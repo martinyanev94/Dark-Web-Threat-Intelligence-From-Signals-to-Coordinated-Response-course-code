@@ -1,0 +1,8 @@
+[
+  {"event_id": "ev-alpha-maintenance", "marketplace": "market-alpha", "actor": "moderator", "event_type": "moderator_notice"},
+  {"event_id": "ev-alpha-shutdown", "marketplace": "market-alpha", "actor": "moderator", "event_type": "market_shutdown"},
+  {"event_id": "ev-beta-held", "marketplace": "market-beta", "actor": "escrow", "event_type": "escrow_held"},
+  {"event_id": "ev-beta-fail-1", "marketplace": "market-beta", "actor": "delivery", "event_type": "delivery_failed"},
+  {"event_id": "ev-beta-fail-2", "marketplace": "market-beta", "actor": "delivery", "event_type": "delivery_failed"},
+  {"event_id": "ev-beta-shutdown", "marketplace": "market-beta", "actor": "moderator", "event_type": "market_shutdown"}
+]
