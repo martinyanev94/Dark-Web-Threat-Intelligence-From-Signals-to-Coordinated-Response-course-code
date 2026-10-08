@@ -1,0 +1,2 @@
+# Dark-Web-Threat-Intelligence-From-Signals-to-Coordinated-Response-course-code
+Learn dark-web threat intelligence by building a defensible, safety-focused Python workflow for turning synthetic cybercrime signals into evidence-linked priorities and coordinated response. This standalone course shows how to analyze anonymization technologies, model illicit-market events, organize sensitive case intelligence, and design privacy-a
